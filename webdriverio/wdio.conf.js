@@ -1,3 +1,4 @@
+
 exports.config = {
     //
     // ====================
@@ -133,6 +134,7 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec'],
+
     
     
     //
@@ -142,6 +144,7 @@ exports.config = {
         ui: 'bdd',
         timeout: 60000
     },
+   
     //
     // =====
     // Hooks
